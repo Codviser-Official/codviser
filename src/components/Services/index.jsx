@@ -30,9 +30,33 @@ const SERVICES_DATA = [
     )
   },
   {
-    id: 's3',
+    id: 's-custom',
     num: '03',
-    title: 'Digital Marketing',
+    title: 'Custom Softwares',
+    desc: 'Tailored software solutions engineered to meet your unique business requirements and optimize operations.',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+        <path d="M8 9l3 3-3 3M13 15h3" strokeLinecap="round" strokeLinejoin="round" />
+        <rect x="3" y="5" width="18" height="14" rx="2" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+    )
+  },
+  {
+    id: 's-automation',
+    num: '04',
+    title: 'Automation & Workflow',
+    desc: 'Streamline processes, reduce manual tasks, and improve efficiency with intelligent automation tools.',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+        <path d="M12 8v4l3 3" strokeLinecap="round" strokeLinejoin="round" />
+        <circle cx="12" cy="12" r="9" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+    )
+  },
+  {
+    id: 's3',
+    num: '05',
+    title: 'Ads Marketing',
     desc: 'Data-driven marketing strategies designed to maximize your ROI and grow your online presence.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -46,8 +70,8 @@ const SERVICES_DATA = [
   },
   {
     id: 's4',
-    num: '04',
-    title: 'Brand Identity',
+    num: '06',
+    title: 'Brand Identity & Designs',
     desc: 'Crafting unique visual identities and strategic branding that resonate with your target audience.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
